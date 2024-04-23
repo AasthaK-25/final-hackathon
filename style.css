@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    min-height:100vh;
+    width: 100%;
+    position: relative;
+    background-color: #c2c0c0;
+    background-image: url(https://images.unsplash.com/photo-1535732759880-bbd5c7265e3f?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-color: red;
+}
+::-webkit-scrollbar{
+   display: none;
+}
+.nav{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.035);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+.part-one{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.part-one h4{
+    font-weight: 500;
+}
+.part-two{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.part-two a{
+    color: white;
+}
+.part-two button{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+}
+#page1 h1{
+    font-size: 10vw;
+    position: absolute;
+    top: 23%;
+    left: 3%;
+    font-weight: 500; 
+   color: black;
+    font-family: Bebas Neue Regular;
+    letter-spacing: 4px;
+}
+.content{
+    width: 460px;
+    position: absolute;
+    left: 3.5%;
+    top: 49%;
+    line-height: 1.8vw;
+}
+.content h4{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn button{
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.btn{
+    position: absolute;
+    top: 74%;
+    left: 3%;
+    display: flex;
+    gap: 30px;
+}
+
+#page1 .avoid{
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 87%;
+    color: black;
+}
+
+#page1 h3{
+    font-size: 20px;
+    left: 8%;
+    position: absolute;
+    top: 93%;
+    font-weight: 600;
+}
+#main h5{
+    position: absolute;
+    top: 97%;
+    left: 8%;
+    font-weight: 300;
+    font-size: 20px;
+}
+#one{
+    position: absolute;
+    left: 72%;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right ,#C0987E, #CBA38B ,#DDB9A9,#DDBFB4,#D5B7AB, #fbb786d5, #f2ba96cb,rgba(236, 178, 188, 0.935),rgb(246, 162, 176));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2 .video-div{
+    height: 70%;
+    width: 40% ;
+    filter: blur(645);
+    position: absolute;
+    right: 4%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 0px 220px;
+    margin-left: 10px;
+}
+.video-div video{
+    height: 100%;
+    width: 98%;
+    background-position: center;
+    background-size: cover;
+  
+}
+#page2 .photo1-text{
+    height: 40vh;
+    width: 42vw;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    left: -132%;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+.photo1-text h1{
+    margin-left: 12px;
+    color: rgb(241, 193, 201);
+}
+.photo1-text h2{
+    color: #fff;
+    margin-left: 14px;
+    margin-top: 12px;
+    font-size: 3px;
+}
+
+.photo1-text h3{
+    margin: 16px;
+    font-weight: 400;
+    color: #ffffffed;
+}
+
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right ,#C0987E, #CBA38B ,#DDB9A9,#DDBFB4,#D5B7AB, #fbb786d5, #f2ba96cb,rgba(236, 178, 188, 0.935),rgb(246, 162, 176));
+    position: relative;
+}
+#page3>h1{
+    font-size: 4vw;
+    position: absolute;
+    left: 34%;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -3.2px;
+}
+.three-divs{
+    position: absolute;
+    top: 26%;
+    height: 55vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px 0 150px;
+}
+.three-divs div{
+    height: 300px;
+    padding: 20px 30px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.three-divs div h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top  : 7px;
+    margin-bottom  : 7px;
+}
+.three-divs div h4{
+    font-size: 18px;
+    font-weight: 100;
+}
+#page3 .instant{
+    position: absolute;
+    top: 87%;
+    left: 22%;
+    font-size: 55px;
+    font-weight: 500;
+}
+.info{
+    border-radius: 10px;
+    background-color: rgb(253, 213, 220);
+    height: 60%;
+    width: 80%;
+    margin-left: 57px;
+    margin-top: 15px;
+    padding: 10px 10px 10px ;
+}
+.info h3{
+    color: black;
+    font-weight: 450;
+}
+
+.photo1-text h1{
+    font-weight: 700;
+}
+.photo1-text h2{
+    font-size: 29px;
+    font-weight: 600;
+}
+.last{
+    height: 350px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    /* padding: 40px 10px 20px 10px; */
+    position: absolute;
+    top: 310%;
+   
+}
+.last h1,h2,h3{
+    color: black;
+}
+.last h1{
+    font-size: 80px;
+    text-transform: uppercase;
+
+}
+.last h2{
+    font-size: 50px;
+}
+.last h3{
+    font-size: 30px;
+    /* margin-top: ; */
+}
+.btn{
+    position: absolute;
+    left: 33%;
+    display: flex;
+    gap: 280px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.btn button{
+    background-color: black;
+    color: #fff;
+}
+.the-end{
+    position: absolute;
+    padding: 20px;
+    top: 370%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40%; 
+}
+
+.f h3, .s h3, .t h3{
+    color: black;
+
+}
+.logo{
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+.logo div i{
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 10px ;
+}
+.logo img{
+    position: absolute;
+    bottom: 140%;
+}
+#page4{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right ,#C0987E, #CBA38B ,#DDB9A9,#DDBFB4,#D5B7AB, #fbb786d5, #f2ba96cb,rgba(236, 178, 188, 0.935),rgb(246, 162, 176)); 
+}
